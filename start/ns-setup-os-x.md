@@ -65,6 +65,7 @@ Complete the following steps to setup NativeScript on your macOS development mac
 
         <pre class="add-copy-button"><code class="language-terminal">sudo gem install cocoapods
         </code></pre>
+        In case of error you can try: sudo gem install -n /usr/local/bin cocoapods
 
     1. (Optional) If you are using Xcode 7.3 as well as an older version of CocoaPods (0.39.0 or earlier), you must install the `xcproj` command-line tool by running `brew install xcproj` in your terminal. You can check your CocoaPods version with pod --version.
 
